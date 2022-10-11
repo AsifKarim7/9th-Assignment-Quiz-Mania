@@ -7,8 +7,8 @@ const QuizDetails = () => {
     const { data } = quiz;
     const { questions } = data;
     return (
-        <div>
-            <h1 className='text-4xl'>Quiz of {data.name}</h1>
+        <div className=' bg-blue-200 md:mx-44 md:my-20 my-14'>
+            <h1 className='text-4xl font-semibold py-3 text-neutral-800 text-center'>Quiz of {data.name}</h1>
 
             <div>
                 <div>

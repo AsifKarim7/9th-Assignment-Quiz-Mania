@@ -10,7 +10,7 @@ const Header = () => {
             </div>
 
             <div className='flex justify-center'>
-                <img className='md:w-full w-11/12' src='https://i.ibb.co/kVZRVgP/Quiz-Mania.jpg' alt='quiz-mania'></img>
+                <img className='md:w-full w-11/12' src='https://play-lh.googleusercontent.com/qZwaafgL00JziWMFAULFLKddpKXIBFS0MAoL2tgNshyOsdiI-9lEttfvi8C5qfTuSgM' alt='quiz-mania'></img>
             </div>
         </div>
     );
