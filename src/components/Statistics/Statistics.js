@@ -19,11 +19,11 @@ const Statistics = () => {
             });
     }, [])
     return (
-        <div>
-            <div className='text-3xl text-blue-600 font-bold my-10'>
+        <div className='flex flex-col justify-center items-center'>
+            <div className='text-3xl text-cyan-700 font-bold my-10'>
                 <h2>Quiz Chart</h2>
             </div>
-            <ResponsiveContainer width="100%" height={500}>
+            <ResponsiveContainer width="95%" height={500}>
                 <BarChart
                     width={700}
                     height={400}
@@ -41,7 +41,7 @@ const Statistics = () => {
                     <Tooltip />
                     <Legend />
                     <CartesianGrid strokeDasharray="3 3" />
-                    <Bar dataKey="total" fill="#8884d8" background={{ fill: '#eee' }} />
+                    <Bar dataKey="total" fill="#0e7490" background={{ fill: '#eee' }} />
                 </BarChart>
             </ResponsiveContainer>
         </div>

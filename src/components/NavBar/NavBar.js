@@ -5,24 +5,24 @@ const NavBar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
     return (
         <div>
-            <div className='bg-blue-200'>
+            <div className='bg-cyan-800'>
                 <div className='px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8'>
                     <div className='relative flex items-center justify-between'>
                         <Link to='/' className='inline-flex items-center'>
-                            <span className='ml-2 text-3xl font-bold tracking-wide text-gray-800'>
+                            <span className='ml-2 text-3xl font-bold tracking-wide text-cyan-50'>
                                 Quiz Mania
                             </span>
                         </Link>
 
                         <ul className='items-center hidden space-x-8 md:flex'>
                             <li>
-                                <NavLink to='/' className='hover:text-blue-700 font-medium'>Home</NavLink>
+                                <NavLink to='/' className='hover:text-blue-300 font-medium text-cyan-50'>Home</NavLink>
                             </li>
                             <li>
-                                <NavLink to='/statistics' className='hover:text-blue-700 font-medium'>Statistics</NavLink>
+                                <NavLink to='/statistics' className='hover:text-blue-300 font-medium text-cyan-50'>Statistics</NavLink>
                             </li>
                             <li>
-                                <NavLink to='/blog' className='hover:text-blue-700 font-medium'>Blog</NavLink>
+                                <NavLink to='/blog' className='hover:text-blue-300 font-medium text-cyan-50'>Blog</NavLink>
                             </li>
                         </ul>
 
@@ -31,7 +31,7 @@ const NavBar = () => {
                                 className='p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline hover:bg-deep-purple-50 focus:bg-deep-purple-50'
                                 onClick={() => setIsMenuOpen(true)}
                             >
-                                <svg className='w-5 text-gray-600' viewBox='0 0 24 24'>
+                                <svg className='w-5 text-cyan-50' viewBox='0 0 24 24'>
                                     <path
                                         fill='currentColor'
                                         d='M23,13H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,13,23,13z'
@@ -53,7 +53,7 @@ const NavBar = () => {
                                         <div className='flex items-center justify-between mb-4'>
                                             <div>
                                                 <Link to='/' className='inline-flex items-center'>
-                                                    <span className='ml-2 text-xl font-bold tracking-wide text-gray-800'>Quiz Mania</span>
+                                                    <span className='ml-2 text-xl font-bold tracking-wide text-cyan-800'>Quiz Mania</span>
                                                 </Link>
                                             </div>
 
@@ -75,13 +75,13 @@ const NavBar = () => {
                                         <nav>
                                             <ul className='space-y-4'>
                                                 <li>
-                                                    <Link to='/' className='hover:text-blue-700 font-medium'>Home</Link>
+                                                    <Link to='/' className='hover:text-cyan-800 font-medium'>Home</Link>
                                                 </li>
                                                 <li>
-                                                    <Link to='/statistics' className='hover:text-blue-700 font-medium'>Statistics</Link>
+                                                    <Link to='/statistics' className='hover:text-cyan-800 font-medium'>Statistics</Link>
                                                 </li>
                                                 <li>
-                                                    <Link to='/blog' className='hover:text-blue-700 font-medium'>Blog</Link>
+                                                    <Link to='/blog' className='hover:text-cyan-800 font-medium'>Blog</Link>
                                                 </li>
                                             </ul>
                                         </nav>

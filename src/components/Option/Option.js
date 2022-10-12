@@ -31,11 +31,11 @@ const Option = ({ option, correctAnswer, id }) => {
     }
 
     return (
-        <div className='m-6 border border-gary-600 bg-white py-4'>
+        <div className='m-4 border border-gary-600 bg-slate-50 py-4'>
             <ToastContainer></ToastContainer>
-            <label className='text-neutral-800 sm:text-sm md:text-lg'>
+            <label className='text-cyan-900'>
                 <input className='cursor-pointer mx-2' type="radio" name={id} onClick={() => handleRadioButton(option)} />
-                {option}
+                <small className='md:text-lg'>{option}</small>
             </label>
         </div>
     );

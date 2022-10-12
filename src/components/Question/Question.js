@@ -22,9 +22,9 @@ const Question = ({ quizQuestion }) => {
 
     return (
         <div>
-            <div className='border-2  bg-blue-100 m-4'>
+            <div className='border-2 rounded bg-slate-300 m-6'>
                 <div className='py-6 flex justify-center'>
-                    <h1 className='md:mr-24 mr-0 md:text-2xl sm:text-sm'>{question}</h1>
+                    <h1 className='md:mr-10 md:px-5 mr-0 md:text-2xl sm:text-sm text-cyan-800'>{question}</h1>
                     <EyeIcon onClick={() => { handleIcon(correctAnswer) }} className="h-6 w-6 text-blue-500 cursor-pointer"></EyeIcon>
                     <ToastContainer></ToastContainer>
                 </div>

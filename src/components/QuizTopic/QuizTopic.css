@@ -2,3 +2,9 @@
     height: 400px;
     width: 500px;
 }
+
+@media screen and (max-width:768px) {
+    .quiz-img {
+        height: 300px;
+    }
+}

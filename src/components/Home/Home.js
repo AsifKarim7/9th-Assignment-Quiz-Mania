@@ -12,7 +12,7 @@ const Home = () => {
                 <Header></Header>
             </div>
             <div className='flex justify-center'>
-                <div className='grid lg:grid-cols-2 sm:grid-cols-1 gap-28 sm:w-auto md:w-1/2 m-20 '>
+                <div className='grid lg:grid-cols-2 sm:grid-cols-1 md:gap-28 gap-10  md:w-1/2 sm:w-auto md:m-20 m-5'>
                     {
                         quizTopics.data.map(quizTopic => <QuizTopic
                             key={quizTopic.id}
